@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Quantum Engineer, SQMS · Fermilab — Ph.D. Student in Computer Science, Northwestern University
+subtitle: Ph.D. Student in Computer Science | Quantum Engineering — Northwestern University
 
 profile:
   align: right
@@ -35,4 +35,4 @@ Before joining SQMS full-time, I completed my M.Sc. in Electronic Engineering (E
 
 I also hold a B.Sc. in Electronic Engineering from the University of Pisa, graduating **110/110 summa cum laude** with a thesis on *"Dispersive readout of the Transmon qubit"* (advisor: Professor Massimo Macucci).
 
-You can find more detail on my background on the [CV](/cv/) page, and a selection of my work on the [projects](/projects/) page. Feel free to reach out by [email](mailto:leonardobove2031@u.northwestern.edu).
+You can find more detail on my background on the [CV](/cv/) page, and a selection of my work on the [projects](/projects/) page. Feel free to reach out by [email](mailto:leonardo.bove01@gmail.com).

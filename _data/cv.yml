@@ -1,7 +1,7 @@
 cv:
   name: Leonardo Bove
-  label: Quantum Engineer, SQMS · Fermilab — Ph.D. Student in Computer Science, Northwestern University
-  email: leonardobove2031@u.northwestern.edu
+  label: Ph.D. Student in Computer Science | Quantum Engineering
+  email: leonardo.bove01@gmail.com
   location: Chicago / Evanston, IL, USA
   image: ""
   summary: >
@@ -28,13 +28,6 @@ cv:
           - "Advisors: Professor Nikos Hardavellas, Professor Kaitlin Smith"
           - "Research interests: compilers, algorithms, and infrastructure for fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control, with a focus on the 3D SRF cavity bosonic mode qudit approach"
 
-      - institution: Northwestern University
-        location: Evanston, IL, USA
-        area: Computer Science
-        studyType: M.Sc.
-        start_date: 2026-09
-        end_date: present
-
       - institution: University of Pisa
         location: Pisa, Italy
         url: https://www.unipi.it/
@@ -59,12 +52,12 @@ cv:
           - 'Thesis: "Dispersive readout of the Transmon qubit"'
           - "Advisor: Professor Massimo Macucci"
 
-    Research Experience:
+    Experience:
       - company: SQMS, Fermilab
         position: Quantum Engineer
         location: Batavia, IL, USA
         start_date: 2026-01
-        end_date: 2026-09
+        end_date: 2026-08
         highlights:
           - Calibration of SRF cavities using Quantum Machines control systems (OPX100 and OPX+ with Octave)
           - Developed automatic calibration routines using Qualibrate
@@ -72,10 +65,10 @@ cv:
           - Developed the infrastructure for auto-calibrating the Novera QPU and making it accessible on the cloud for users
 
       - company: Department of Information Engineering, University of Pisa
-        position: "Graduate Research Fellow in Quantum & Electronic Engineering"
+        position: "Research Fellow in Quantum & Electronic Engineering"
         location: Pisa, Italy
         start_date: 2025-09
-        end_date: present
+        end_date: 2026-01
         summary: 'Recipient of a 3-month research fellowship titled "Measurement of relaxation and decoherence times in superconducting qubits"'
         highlights:
           - Characterization of multiple qubits using frequency multiplexing strategies; performed the first qubit measurements ever conducted within the engineering department
@@ -96,7 +89,6 @@ cv:
           - Applied Qubase to characterize 2D and 3D superconducting qubits and support advanced quantum experiments (e.g. parallel fast-decay detection sequence)
           - Automated calibration workflows for high-throughput measurements
 
-    Professional Experience:
       - company: E-Team Squadra Corse (FSAE team)
         position: Chief Technology Officer
         location: Pisa, Italy
@@ -135,7 +127,7 @@ cv:
       - name: Programming Languages
         keywords: "C/C++, Python, Verilog, VHDL, MATLAB, Bash, Assembly"
       - name: Quantum Computing
-        keywords: "Superconducting qubit & bosonic cavity mode qudit characterization, Quantum Machines (OPX, OPX+, OPX1000, Octave), Qualibrate, Qiskit, QuTiP"
+        keywords: "Superconducting qubit & bosonic cavity mode qudit characterization, qudit, SRF Cavity, 2 Qubit Gates, Quantum Machines (OPX, OPX+, OPX1000, Octave), Qualibrate, Qiskit, QuTiP"
       - name: FPGA Design
         keywords: "Vivado, Quartus, ModelSim"
       - name: Embedded Systems
@@ -152,16 +144,24 @@ cv:
         keywords: "VNA, soldering, prototyping, Autodesk Fusion 360, 3D printing"
 
     Languages:
-      - name: Italian
-        summary: "Native speaker"
       - name: English
-        summary: "C2 level (Cambridge Certificate in Advanced English, 2020)"
+        summary: "Professional Working"
+      - name: Italian
+        summary: "Native or Bilingual"
       - name: German
-        summary: "B2 level (Linguistic Center CLI, University of Pisa, 2022)"
+        summary: "Limited Working"
       - name: Spanish
-        summary: "B1 level"
+        summary: "Limited Working"
       - name: French
-        summary: "A2 level"
+        summary: "Elementary"
+
+    Certificates:
+      - name: "Tedesco Livello B2"
+        issuer: "Centro Linguistico Interdipartimentale, University of Pisa"
+        date: 2022
+      - name: "Certificate in Advanced English - Level C2"
+        issuer: Cambridge Assessment English
+        date: 2020
 
     Invited Talks:
       - company: "Quantum Device Lab, Department of Physics, ETH Zürich"
@@ -205,7 +205,7 @@ cv:
           - Developed using Simulink Model-Based Design
           - Built a digital twin of the complete robotic system
 
-    Honors & Awards:
+    Awards:
       - title: Industry 5.0 Excellence Learning Path
         awarder: FoReLab project, University of Pisa
         date: 2025

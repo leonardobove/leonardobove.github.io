@@ -1,0 +1,233 @@
+cv:
+  name: Leonardo Bove
+  label: Quantum Engineer, SQMS · Fermilab — Ph.D. Student in Computer Science, Northwestern University
+  email: leonardobove2031@u.northwestern.edu
+  location: Chicago / Evanston, IL, USA
+  image: ""
+  summary: >
+    Quantum engineer at SQMS, Fermilab, and incoming Ph.D. student in Computer Science at
+    Northwestern University, working on compilers, algorithms, and infrastructure for
+    fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control,
+    with a focus on the 3D SRF cavity bosonic mode qudit approach.
+
+  social_networks:
+    - network: GitHub
+      username: leonardobove
+    - network: LinkedIn
+      username: leonardo-bove-86a1481b3
+
+  sections:
+    Education:
+      - institution: Northwestern University
+        location: Evanston, IL, USA
+        area: Computer Science
+        studyType: Ph.D.
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - "Advisors: Professor Nikos Hardavellas, Professor Kaitlin Smith"
+          - "Research interests: compilers, algorithms, and infrastructure for fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control, with a focus on the 3D SRF cavity bosonic mode qudit approach"
+
+      - institution: Northwestern University
+        location: Evanston, IL, USA
+        area: Computer Science
+        studyType: M.Sc.
+        start_date: 2026-09
+        end_date: present
+
+      - institution: University of Pisa
+        location: Pisa, Italy
+        url: https://www.unipi.it/
+        area: "Electronic Engineering (Embedded Systems & Mechatronics)"
+        studyType: M.Sc.
+        start_date: 2023-09
+        end_date: 2025-10
+        score: "110/110 summa cum laude (highest distinction)"
+        highlights:
+          - 'Thesis: "Superconducting qubit readout and control system based on FPGA and development of a pulse sequencer"'
+          - "Advisors: Professor Massimo Macucci, Professor Stefano Di Pascoli, Dr. David Van Zanten"
+
+      - institution: University of Pisa
+        location: Pisa, Italy
+        url: https://www.unipi.it/
+        area: Electronic Engineering
+        studyType: B.Sc.
+        start_date: 2020-09
+        end_date: 2023-07
+        score: "110/110 summa cum laude (highest distinction)"
+        highlights:
+          - 'Thesis: "Dispersive readout of the Transmon qubit"'
+          - "Advisor: Professor Massimo Macucci"
+
+    Research Experience:
+      - company: SQMS, Fermilab
+        position: Quantum Engineer
+        location: Batavia, IL, USA
+        start_date: 2026-01
+        end_date: 2026-09
+        highlights:
+          - Calibration of SRF cavities using Quantum Machines control systems (OPX100 and OPX+ with Octave)
+          - Developed automatic calibration routines using Qualibrate
+          - Calibrated the Novera Rigetti QPU using the OPX1000 platform
+          - Developed the infrastructure for auto-calibrating the Novera QPU and making it accessible on the cloud for users
+
+      - company: Department of Information Engineering, University of Pisa
+        position: "Graduate Research Fellow in Quantum & Electronic Engineering"
+        location: Pisa, Italy
+        start_date: 2025-09
+        end_date: present
+        summary: 'Recipient of a 3-month research fellowship titled "Measurement of relaxation and decoherence times in superconducting qubits"'
+        highlights:
+          - Characterization of multiple qubits using frequency multiplexing strategies; performed the first qubit measurements ever conducted within the engineering department
+          - Management of the laboratory's dilution refrigerator infrastructure
+          - "Microwave path engineering: component sizing/selection, system characterization using RF instrumentation (VNA, spectrum analyzer); maximizing available SNR in the readout chain without relying on quantum-limited amplifiers"
+          - Developed FPGA-based qubit control and readout using the QICK platform, adapting it to their experimental setup; achieved comparable performance to off-the-shelf commercial qubit controllers while significantly reducing hardware costs
+          - Established a remote-access infrastructure for qubit experiments (JupyterLab server)
+          - Trained and supervised master's students in laboratory research, focused on qubit calibration procedures
+
+      - company: SQMS, Fermilab
+        position: Master Thesis Project
+        location: Batavia, IL, USA
+        start_date: 2025-05
+        end_date: 2025-07
+        highlights:
+          - Designed and analyzed QPCB, a custom pulse frequency conversion board, using microwave EM simulations (ADS Keysight)
+          - Engineered Qubase, a high-level Python pulse sequencer for the QICK FPGA platform, leveraging rustworkx for sequence graph analysis
+          - Applied Qubase to characterize 2D and 3D superconducting qubits and support advanced quantum experiments (e.g. parallel fast-decay detection sequence)
+          - Automated calibration workflows for high-throughput measurements
+
+    Professional Experience:
+      - company: E-Team Squadra Corse (FSAE team)
+        position: Chief Technology Officer
+        location: Pisa, Italy
+        start_date: 2023-09
+        end_date: 2024-09
+        highlights:
+          - Directed development of University of Pisa's EV race car (Electronics & Software Divisions) for the 2023-2024 season
+          - Achieved a significant performance improvement at Formula Student Germany 2024, finishing 11 positions higher in overall ranking vs previous year, and ranking as the only Italian team to successfully complete the endurance event
+          - Approved and validated engineering projects; oversaw high-voltage battery systems
+          - Administered and maintained the team's GitLab server; coordinated CI pipelines; reviewed pull requests and issue workflows
+          - Fostered team cohesion through structured team-building initiatives; organized personnel logistics and supervised technical activities
+
+      - company: Sintonica s.r.l.
+        position: Embedded Software Developer
+        location: Navacchio (PI), Italy
+        start_date: 2023-05
+        end_date: 2023-09
+        highlights:
+          - Developed firmware drivers for TFT LCD displays on a custom embedded OS using Infineon PSoC ARM microcontrollers
+          - Contributed to layout and enhancement of the company's development kit PCB, integrating Cypress and nRF PSoC platforms
+
+      - company: E-Team Squadra Corse (FSAE team)
+        position: PCB Designer and Embedded System Developer
+        location: Pisa, Italy
+        start_date: 2022-09
+        end_date: 2023-09
+        highlights:
+          - Led development of embedded software for onboard PCB systems
+          - Implemented components of the Vehicle Control Unit using the FreeRTOS real-time OS
+          - Engineered a multi-architecture bootloader (ARM/AVR) with CAN bus support, enabling rapid firmware updates for inaccessible microcontrollers in time-critical scenarios
+          - Conducted unit and integration testing of firmware modules; co-developed a virtualization framework enabling Model-in-the-loop and Software-in-the-loop testing of firmware prior to deployment on physical hardware
+
+    Skills:
+      - name: Software Development Tools & OS
+        keywords: "Git, Linux, Windows"
+      - name: Programming Languages
+        keywords: "C/C++, Python, Verilog, VHDL, MATLAB, Bash, Assembly"
+      - name: Quantum Computing
+        keywords: "Superconducting qubit & bosonic cavity mode qudit characterization, Quantum Machines (OPX, OPX+, OPX1000, Octave), Qualibrate, Qiskit, QuTiP"
+      - name: FPGA Design
+        keywords: "Vivado, Quartus, ModelSim"
+      - name: Embedded Systems
+        keywords: "STM32CubeIDE, PSoC Creator, Simulink Model-Based Design"
+      - name: Analog Design
+        keywords: "SPICE, ADS, KiCad, Altium"
+      - name: MEMS Design & Simulation
+        keywords: "COMSOL Multiphysics"
+      - name: Microcontroller Architectures
+        keywords: "AVR, ARM"
+      - name: PCB Design
+        keywords: "KiCad, Altium"
+      - name: Lab & Fabrication
+        keywords: "VNA, soldering, prototyping, Autodesk Fusion 360, 3D printing"
+
+    Languages:
+      - name: Italian
+        summary: "Native speaker"
+      - name: English
+        summary: "C2 level (Cambridge Certificate in Advanced English, 2020)"
+      - name: German
+        summary: "B2 level (Linguistic Center CLI, University of Pisa, 2022)"
+      - name: Spanish
+        summary: "B1 level"
+      - name: French
+        summary: "A2 level"
+
+    Invited Talks:
+      - company: "Quantum Device Lab, Department of Physics, ETH Zürich"
+        position: "Superconducting qubit readout and control system based on FPGA and development of a pulse sequencer"
+        location: Zürich, Switzerland
+        start_date: 2025-07-23
+        end_date: 2025-07-23
+
+    Grad Course Projects:
+      - name: SpaceFibre PLL
+        summary: "University of Pisa, Wireless Integrated Circuits (Prof. Daniele Rossi)"
+        start_date: 2022-09
+        end_date: 2023-09
+        highlights:
+          - "Modeled and simulated a SpaceFibre-compatible 6.25GHz PLL using SG25H4 0.25µm SiGe BiCMOS technology"
+          - Evaluated system stability and performance metrics
+
+      - name: Handwritten Digit Recognition
+        summary: "University of Pisa, Digital System Design (Prof. Roberto Saletti)"
+        start_date: 2025-01
+        end_date: 2025-02
+        highlights:
+          - Engineered a neural-network-based handwritten digit recognizer on Altera DE10-Lite (MAX10 FPGA)
+          - Built a Python digital twin for training and quantization
+          - Implemented custom Verilog drivers for touchscreen control and LT24 visualization
+
+      - name: Dual Axis Accelerometer
+        summary: "University of Pisa, Sensor and Microsystem Design (Prof. Massimo Piotto)"
+        start_date: 2024-12
+        end_date: 2025-01
+        highlights:
+          - Simulated a dual-axis MEMS accelerometer with T-shaped beams using COMSOL
+          - Analyzed device performance and application range, benchmarked against lumped-element models
+
+      - name: Rubik's Cube Automatic Solver
+        summary: "University of Pisa, Mechatronic Systems Design (Prof. Roberto Di Rienzo)"
+        start_date: 2024-11
+        end_date: 2024-12
+        highlights:
+          - Designed a servo-actuated Rubik's Cube solver robot controlled by an S32K144EVB
+          - Developed using Simulink Model-Based Design
+          - Built a digital twin of the complete robotic system
+
+    Honors & Awards:
+      - title: Industry 5.0 Excellence Learning Path
+        awarder: FoReLab project, University of Pisa
+        date: 2025
+      - title: Industry 4.0 Learning Path
+        awarder: University of Pisa
+        date: 2025
+
+    Extracurricular Activities:
+      - company: Private Tutoring
+        position: Tutor
+        location: Pisa, Italy
+        start_date: 2023
+        end_date: 2025
+        summary: "Weekly one-to-one tutoring for 5+ high school students in Computer Science, Electronics, Physics, and Mathematics"
+        highlights:
+          - "Average 30% improvement in students' grades"
+
+      - company: '"Hans Werner Henze" Institute of Music'
+        position: Violin
+        location: Montepulciano, Italy
+        start_date: 2009
+        end_date: 2021
+        highlights:
+          - Individual lessons and orchestral performances with the Poliziana Orchestra at the Cantiere Internazionale d'Arte di Montepulciano
+          - Recipient of three merit-based scholarships from that foundation

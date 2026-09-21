@@ -2,13 +2,13 @@ cv:
   name: Leonardo Bove
   label: Ph.D. Student in Computer Science | Quantum Engineering
   email: leonardo.bove01@gmail.com
-  location: Chicago / Evanston, IL, USA
+  location: "Mudd Library, Room 3304, 2233 Tech Drive, Evanston, IL 60208"
   image: ""
   summary: >
-    Quantum engineer at SQMS, Fermilab, and incoming Ph.D. student in Computer Science at
-    Northwestern University, working on compilers, algorithms, and infrastructure for
-    fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control,
-    with a focus on the 3D SRF cavity bosonic mode qudit approach.
+    Incoming Ph.D. student in Computer Science at Northwestern University, collaborating with
+    SQMS, Fermilab, on compilers, algorithms, and infrastructure for fault-tolerant quantum
+    computing (FTQC), quantum error correction, and quantum control, with a focus on the 3D SRF
+    cavity bosonic mode qudit approach.
 
   social_networks:
     - network: GitHub

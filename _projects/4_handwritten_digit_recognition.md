@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Handwritten Digit Recognition
+title: Digit Recognition
 description: A neural-network-based handwritten digit recognizer on an Altera DE10-Lite (MAX10 FPGA) board
 importance: 4
 category: coursework

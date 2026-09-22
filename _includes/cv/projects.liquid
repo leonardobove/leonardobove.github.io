@@ -1,0 +1,76 @@
+{% comment %}
+  Local override of al_folio_cv-1.0.2's templates/cv/projects.liquid.
+  Changes from the gem original:
+  - date badge shows "Mon YYYY - Mon YYYY" instead of year-only (via cv/_date_range.liquid)
+  - highlights render as plain paragraphs instead of a bulleted <ul><li> list
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      {% capture start_date %}
+        {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
+      {% endcapture %}
+      {% assign start_date = start_date | strip %}
+      {% capture end_date %}
+        {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
+      {% endcapture %}
+      {% assign end_date = end_date | strip %}
+      {% capture point_date %}
+        {% if entry.date %}{{ entry.date }}{% elsif entry.releaseDate %}{{ entry.releaseDate }}{% endif %}
+      {% endcapture %}
+      {% assign point_date = point_date | strip %}
+
+      {% if start_date != '' %}
+        {% capture date %}{% include cv/_date_range.liquid start=start_date end=end_date %}{% endcapture %}
+        {% assign date = date | strip %}
+      {% elsif point_date != '' %}
+        {% capture date %}{% include cv/_date_range.liquid start=point_date point=true %}{% endcapture %}
+        {% assign date = date | strip %}
+      {% else %}
+        {% assign date = null %}
+      {% endif %}
+
+      {% capture entry_body %}
+        {% if entry.url %}
+          <h6 class="title font-weight-bold">
+            <a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a>
+          </h6>
+        {% else %}
+          <h6 class="title font-weight-bold">{{ entry.name }}</h6>
+        {% endif %}
+
+        {% if entry.summary %}
+          <p>{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+
+        {% if entry.highlights %}
+          <div class="items">
+            {% for item in entry.highlights %}
+              <p class="mb-1">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endcapture %}
+
+      {% if date %}
+        <div class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">{{ entry_body }}</div>
+        </div>
+      {% else %}
+        {{ entry_body }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

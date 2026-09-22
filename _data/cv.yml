@@ -2,7 +2,11 @@ cv:
   name: Leonardo Bove
   label: Ph.D. Student in Computer Science | Quantum Engineering
   email: leonardo.bove01@gmail.com
-  location: "Mudd Library, Room 3304, 2233 Tech Drive, Evanston, IL 60208"
+  address:
+    street: "Mudd Library, Room 3304, 2233 Tech Drive"
+    city: Evanston
+    region: IL
+    postalCode: "60208"
   image: ""
   summary: >
     Incoming Ph.D. student in Computer Science at Northwestern University, collaborating with
@@ -27,6 +31,13 @@ cv:
         highlights:
           - "Advisors: Professor Nikos Hardavellas, Professor Kaitlin Smith"
           - "Research interests: compilers, algorithms, and infrastructure for fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control, with a focus on the 3D SRF cavity bosonic mode qudit approach"
+
+      - institution: Northwestern University
+        location: Evanston, IL, USA
+        area: Computer Science
+        studyType: M.Sc.
+        start_date: 2026-09
+        end_date: present
 
       - institution: University of Pisa
         location: Pisa, Italy
@@ -65,7 +76,7 @@ cv:
           - Developed the infrastructure for auto-calibrating the Novera QPU and making it accessible on the cloud for users
 
       - company: Department of Information Engineering, University of Pisa
-        position: "Research Fellow in Quantum & Electronic Engineering"
+        position: "Graduate Research Fellow in Quantum & Electronic Engineering"
         location: Pisa, Italy
         start_date: 2025-09
         end_date: 2026-01
@@ -164,13 +175,11 @@ cv:
         date: 2020
 
     Invited Talks:
-      - company: "Quantum Device Lab, Department of Physics, ETH Zürich"
-        position: "Superconducting qubit readout and control system based on FPGA and development of a pulse sequencer"
-        location: Zürich, Switzerland
-        start_date: 2025-07-23
-        end_date: 2025-07-23
+      - title: "Superconducting qubit readout and control system based on FPGA and development of a pulse sequencer"
+        publisher: "Quantum Device Lab, Department of Physics, ETH Zürich, Zürich, Switzerland"
+        date: 2025-07-23
 
-    Grad Course Projects:
+    Projects:
       - name: SpaceFibre PLL
         summary: "University of Pisa, Wireless Integrated Circuits (Prof. Daniele Rossi)"
         start_date: 2022-09

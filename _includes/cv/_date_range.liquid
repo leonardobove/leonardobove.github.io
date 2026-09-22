@@ -1,0 +1,38 @@
+{% comment %}
+  Local override helper (not in al_folio_cv gem): renders "Mon YYYY - Mon YYYY"
+  (or "- Present") from YYYY-MM / YYYY-MM-DD date strings, falling back to
+  year-only when no month is present. Used by the cv/*.liquid overrides below
+  so date badges show the month, not just the year.
+  Params: start (required), end (optional; blank or 'present' => "Present"), point (optional; true => start only)
+{% endcomment %}
+{% assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: ',' %}
+{% assign start_parts = include.start | split: '-' %}
+{% assign start_year = start_parts[0] %}
+{% assign start_month_idx = start_parts[1] | plus: 0 %}
+{% if start_month_idx > 0 %}
+  {% assign start_month_array_idx = start_month_idx | minus: 1 %}
+  {% assign start_month = months[start_month_array_idx] %}
+  {% assign start_display = start_month | append: ' ' | append: start_year %}
+{% else %}
+  {% assign start_display = start_year %}
+{% endif %}
+{% if include.point %}
+  {{- start_display -}}
+{% else %}
+  {% assign end_raw = include.end | downcase %}
+  {% if include.end == blank or end_raw == 'present' %}
+    {% assign end_display = 'Present' %}
+  {% else %}
+    {% assign end_parts = include.end | split: '-' %}
+    {% assign end_year = end_parts[0] %}
+    {% assign end_month_idx = end_parts[1] | plus: 0 %}
+    {% if end_month_idx > 0 %}
+      {% assign end_month_array_idx = end_month_idx | minus: 1 %}
+      {% assign end_month = months[end_month_array_idx] %}
+      {% assign end_display = end_month | append: ' ' | append: end_year %}
+    {% else %}
+      {% assign end_display = end_year %}
+    {% endif %}
+  {% endif %}
+  {{ start_display }} - {{ end_display }}
+{% endif %}

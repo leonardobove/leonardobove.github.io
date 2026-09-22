@@ -1,0 +1,22 @@
+{% comment %}
+  Local override helper (not in al_folio_cv gem): renders "Mon D, YYYY" (or
+  "Mon YYYY" / "YYYY") from a single YYYY-MM-DD / YYYY-MM / YYYY date string.
+  Used by cv/publications.liquid for the Invited Talks date badge.
+  Params: date (required)
+{% endcomment %}
+{% assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: ',' %}
+{% assign parts = include.date | split: '-' %}
+{% assign year = parts[0] %}
+{% assign month_idx = parts[1] | plus: 0 %}
+{% assign day = parts[2] | plus: 0 %}
+{% if month_idx > 0 and day > 0 %}
+  {% assign month_array_idx = month_idx | minus: 1 %}
+  {% assign month = months[month_array_idx] %}
+  {{ month }} {{ day }}, {{ year }}
+{% elsif month_idx > 0 %}
+  {% assign month_array_idx = month_idx | minus: 1 %}
+  {% assign month = months[month_array_idx] %}
+  {{ month }} {{ year }}
+{% else %}
+  {{ year }}
+{% endif %}

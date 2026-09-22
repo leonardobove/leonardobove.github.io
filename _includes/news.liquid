@@ -1,0 +1,102 @@
+{% comment %}
+  Local override of al_folio_core-1.0.15's _includes/news.liquid.
+  Replaces the plain date|title table with a compact list: month/year date,
+  an optional category badge (from front matter `category`), the title, and
+  an optional one-line subtitle (from front matter `subtitle`). Falls back
+  gracefully when category/subtitle are absent so plain/inline items still
+  render as before. Adds a "show more" link to /news/ when the about-page
+  preview (include.limit) truncates the full list.
+{% endcomment %}
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
+    {% assign news = site.news | reverse %}
+    {% if include.limit and page.announcements.limit %}
+      {% assign news_limit = page.announcements.limit %}
+    {% else %}
+      {% assign news_limit = news_size %}
+    {% endif %}
+    <div
+      class="news-list"
+      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+        style="max-height: 60vw; overflow-y: auto;"
+      {% endif %}
+    >
+      {% for item in news limit: news_limit %}
+        <div class="news-item">
+          <div class="news-item-date">{{ item.date | date: '%b %Y' | upcase }}</div>
+          <div class="news-item-body">
+            {% if item.category %}
+              <span class="badge news-badge">{{ item.category }}</span>
+            {% endif %}
+            <div class="news-item-title">
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% endif %}
+            </div>
+            {% if item.subtitle %}
+              <div class="news-item-subtitle">{{ item.subtitle }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {% if include.limit and page.announcements.limit and news_size > news_limit %}
+      <p class="news-show-more"><a href="{{ '/news/' | relative_url }}">show more</a></p>
+    {% endif %}
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>
+
+<style>
+  .news-item {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--global-divider-color, #e5e5e5);
+  }
+  .news-item:last-child {
+    border-bottom: none;
+  }
+  .news-item-date {
+    flex: 0 0 5.5rem;
+    padding-top: 0.3rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    color: var(--global-text-color-light, #888);
+  }
+  .news-item-body {
+    flex: 1;
+    min-width: 0;
+  }
+  .news-badge {
+    display: inline-block;
+    margin-bottom: 0.35rem;
+    background-color: var(--global-theme-color);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .news-item-title,
+  .news-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+  .news-item-subtitle {
+    margin-top: 0.15rem;
+    color: var(--global-text-color-light, #888);
+    font-size: 0.9rem;
+  }
+  .news-show-more {
+    margin-top: 0.5rem;
+  }
+  .news-show-more a {
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+  }
+</style>

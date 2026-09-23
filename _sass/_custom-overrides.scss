@@ -1,0 +1,7 @@
+// Project card titles can be a single unbroken token (e.g. a repo name like
+// "quantum_simulations" with no spaces or hyphens), which the default line-
+// breaking algorithm won't wrap, so it overflows the fixed-width card.
+.card-title {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

@@ -5,3 +5,22 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
+
+// CV date badges (cv/_date_range.liquid, _date_point.liquid) render as bold
+// uppercase blocks with a fixed 75px inline min-width, which reads as bulky
+// next to the entry title. Restyle as compact rounded pills that hug their
+// text; !important is needed to beat the element's own inline min-width.
+.cv .date-column .badge {
+  min-width: 0 !important;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.7rem;
+  border-radius: 50rem;
+}
+
+// Sections not covered by a local cv/*.liquid override (e.g. Certificates)
+// fall back to the al_folio_cv gem's plain bulleted <ul>, which shows disc
+// bullets unlike every other CV section on the page.
+.cv ul.list-group {
+  list-style: none;
+  padding-left: 0;
+}

@@ -5,4 +5,4 @@ email: leonardo.bove01@gmail.com # your email address
 github_username: leonardobove
 linkedin_username: leonardo-bove-86a1481b3
 rss_icon: true # comment this line to hide the RSS icon
-# cv_pdf: /assets/pdf/example_pdf.pdf # no CV PDF has been provided yet; the site's HTML CV page at /cv/ is populated instead
+cv_pdf: /assets/pdf/cv.pdf

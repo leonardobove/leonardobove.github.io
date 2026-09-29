@@ -33,19 +33,19 @@
 
       {% capture entry_body %}
         {% if entry.url %}
-          <h6 class="title font-weight-bold">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a>
           </h6>
         {% else %}
-          <h6 class="title font-weight-bold">{{ entry.name }}</h6>
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name }}</h6>
         {% endif %}
 
         {% if entry.summary %}
-          <p>{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}
 
         {% if entry.highlights %}
-          <div class="items">
+          <div class="items ml-1 ml-md-4">
             {% for item in entry.highlights %}
               <p class="mb-1">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             {% endfor %}

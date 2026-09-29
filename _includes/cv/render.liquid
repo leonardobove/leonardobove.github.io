@@ -179,7 +179,7 @@
                 {% assign entries = section_entries %}
                 {% include cv/certificates.liquid %}
               {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
-                {% assign entries = section_entries %}
+                {% assign entries = section_entries | al_cv_sort_by_date %}
                 {% include cv/projects.liquid %}
               {% elsif section_title == 'Extracurricular Activities' %}
                 {% assign entries = section_entries | al_cv_sort_by_date %}

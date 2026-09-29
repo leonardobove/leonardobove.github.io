@@ -24,3 +24,21 @@
   list-style: none;
   padding-left: 0;
 }
+
+// Each CV entry's date/location table-cv has no explicit width, so a long
+// one-line location (e.g. "Montepulciano, Italy") makes that entry's table
+// wider than its fixed-width .date-column, overflowing it. Since the badge
+// is centered *within its own table* rather than the column, entries with
+// a longer location render their date badge shifted further right than
+// entries with a short one, so badges in the same section don't line up.
+// Pin the table to the column's width and let long locations wrap instead.
+.cv .date-column .table-cv {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.cv .date-column .location {
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

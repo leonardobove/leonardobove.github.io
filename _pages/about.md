@@ -29,12 +29,8 @@ latest_posts:
 
 I am an incoming Ph.D. student in Computer Science at [Northwestern University](https://www.northwestern.edu/) (starting September 2026), advised by Professor [Nikos Hardavellas](https://www.cs.northwestern.edu/~hardav) and Professor [Kaitlin Smith](https://knsmith.github.io/). I collaborate with [SQMS](https://sqms.fnal.gov/) (Superconducting Quantum Materials and Systems Center), Fermilab.
 
-My research interests are compilers, algorithms, and infrastructure for **fault-tolerant quantum computing (FTQC)**, **quantum error correction**, and **quantum control**, with a particular focus on the 3D superconducting radio-frequency (SRF) cavity bosonic mode qudit approach.
+My research interests are compilers, algorithms, and infrastructure for **fault-tolerant quantum computing**, **quantum error correction**, and **quantum control**, with a focus on 3D superconducting radio-frequency (SRF) cavity bosonic mode qudits. At SQMS, I have worked on calibrating SRF cavities and qubits with Quantum Machines control systems and on exposing the Novera Rigetti QPU as a cloud-accessible resource.
 
-Through my collaboration with SQMS, I've worked on calibrating SRF cavities and qubits using Quantum Machines control systems (OPX100, OPX+, and OPX1000 with Octave), developed automatic calibration routines with Qualibrate, and worked on calibrating and exposing the Novera Rigetti QPU as a cloud-accessible resource.
-
-I completed my M.Sc. in Electronic Engineering (Embedded Systems & Mechatronics track) at the [University of Pisa](https://www.unipi.it/), graduating **110/110 summa cum laude** with a thesis on *"Superconducting qubit readout and control system based on FPGA and development of a pulse sequencer"* (advisors: Professor Massimo Macucci, Professor Stefano Di Pascoli, Dr. David Van Zanten). My master's thesis project was carried out at SQMS, Fermilab, where I designed QPCB, a custom pulse frequency conversion board, and built Qubase, a high-level Python pulse sequencer for the QICK FPGA platform.
-
-I also hold a B.Sc. in Electronic Engineering from the University of Pisa, graduating **110/110 summa cum laude** with a thesis on *"Dispersive readout of the Transmon qubit"* (advisor: Professor Massimo Macucci).
+I hold a B.Sc. and an M.Sc. in Electronic Engineering from the [University of Pisa](https://www.unipi.it/), both **110/110 summa cum laude**. My master's thesis, carried out at SQMS, Fermilab, covered an FPGA-based superconducting qubit readout and control system and a pulse sequencer.
 
 You can find more detail on my background on the [CV](/cv/) page, and a selection of my work on the [projects](/projects/) page. Feel free to reach out by [email](mailto:leonardo.bove01@gmail.com).

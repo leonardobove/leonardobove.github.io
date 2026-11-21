@@ -2,7 +2,7 @@
 
 [![deploy](https://github.com/leonardobove/leonardobove.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/leonardobove/leonardobove.github.io/actions/workflows/deploy.yml)
 
-Personal academic website for Leonardo Bove — Quantum Engineer at SQMS, Fermilab, and incoming Ph.D. student in Computer Science at Northwestern University.
+Personal academic website for Leonardo Bove — Quantum Engineer at SQMS, Fermilab, and Ph.D. student in Computer Science at Northwestern University.
 
 Live at: <https://leonardobove.github.io>
 

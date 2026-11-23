@@ -8,4 +8,4 @@ category: Position
 subtitle: Northwestern University
 ---
 
-Starting my Ph.D. in Computer Science at Northwestern University, working with Professor Nikos Hardavellas and Professor Kaitlin Smith. My research will focus on compilers, algorithms, and infrastructure for fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control, centered on the 3D SRF cavity bosonic mode qudit approach.
+Starting my Ph.D. in Computer Science at Northwestern University, working with Professor Nikos Hardavellas. My research will focus on compilers, algorithms, and infrastructure for fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control, centered on the 3D SRF cavity bosonic mode qudit approach.

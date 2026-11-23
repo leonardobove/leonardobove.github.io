@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first-year Ph.D. student in Computer Science at [Northwestern University](https://www.northwestern.edu/), working with Professor [Nikos Hardavellas](https://www.cs.northwestern.edu/~hardav) and Professor [Kaitlin Smith](https://knsmith.github.io/). I collaborate with [SQMS](https://sqms.fnal.gov/) (Superconducting Quantum Materials and Systems Center), Fermilab.
+I am a first-year Ph.D. student in Computer Science at [Northwestern University](https://www.northwestern.edu/), working with Professor [Nikos Hardavellas](https://www.cs.northwestern.edu/~hardav). I collaborate with [SQMS](https://sqms.fnal.gov/) (Superconducting Quantum Materials and Systems Center), Fermilab.
 
 My research interests are compilers, algorithms, and infrastructure for **fault-tolerant quantum computing**, **quantum error correction**, and **quantum control**, with a focus on 3D superconducting radio-frequency (SRF) cavity bosonic mode qudits. At SQMS, I have worked on calibrating SRF cavities and qubits with Quantum Machines control systems and on exposing the Novera Rigetti QPU as a cloud-accessible resource.
 

@@ -163,7 +163,7 @@
               {% elsif section_title == 'Publications' %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
-              {% elsif section_title == 'Invited Talks' %}
+              {% elsif section_title == 'Invited Talks' or section_title == 'Posters' %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
               {% elsif section_title == 'Skills' %}

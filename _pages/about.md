@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an incoming Ph.D. student in Computer Science at [Northwestern University](https://www.northwestern.edu/) (starting September 2026), advised by Professor [Nikos Hardavellas](https://www.cs.northwestern.edu/~hardav) and Professor [Kaitlin Smith](https://knsmith.github.io/). I collaborate with [SQMS](https://sqms.fnal.gov/) (Superconducting Quantum Materials and Systems Center), Fermilab.
+I am a first-year Ph.D. student in Computer Science at [Northwestern University](https://www.northwestern.edu/), working with Professor [Nikos Hardavellas](https://www.cs.northwestern.edu/~hardav) and Professor [Kaitlin Smith](https://knsmith.github.io/). I collaborate with [SQMS](https://sqms.fnal.gov/) (Superconducting Quantum Materials and Systems Center), Fermilab.
 
 My research interests are compilers, algorithms, and infrastructure for **fault-tolerant quantum computing**, **quantum error correction**, and **quantum control**, with a focus on 3D superconducting radio-frequency (SRF) cavity bosonic mode qudits. At SQMS, I have worked on calibrating SRF cavities and qubits with Quantum Machines control systems and on exposing the Novera Rigetti QPU as a cloud-accessible resource.
 
 I hold a B.Sc. and an M.Sc. in Electronic Engineering from the [University of Pisa](https://www.unipi.it/), both **110/110 summa cum laude**. My master's thesis, carried out at SQMS, Fermilab, covered an FPGA-based superconducting qubit readout and control system and a pulse sequencer.
 
-You can find more detail on my background on the [CV](/cv/) page, and a selection of my work on the [projects](/projects/) page. Feel free to reach out by [email](mailto:leonardo.bove01@gmail.com).
+You can find my talks and posters on the [papers & talks](/publications/) page, more detail on my background on the [CV](/cv/) page, and a selection of my work on the [projects](/projects/) page. Feel free to reach out by [email](mailto:leonardo.bove01@gmail.com).

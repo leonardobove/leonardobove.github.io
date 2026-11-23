@@ -9,7 +9,7 @@ cv:
     postalCode: "60208"
   image: ""
   summary: >
-    Incoming Ph.D. student in Computer Science at Northwestern University, collaborating with
+    Ph.D. student in Computer Science at Northwestern University, collaborating with
     SQMS, Fermilab, on compilers, algorithms, and infrastructure for fault-tolerant quantum
     computing (FTQC), quantum error correction, and quantum control, with a focus on the 3D SRF
     cavity bosonic mode qudit approach.
@@ -29,7 +29,7 @@ cv:
         start_date: 2026-09
         end_date: present
         highlights:
-          - "Advisors: Professor Nikos Hardavellas, Professor Kaitlin Smith"
+          - "Working with Professor Nikos Hardavellas and Professor Kaitlin Smith"
           - "Research interests: compilers, algorithms, and infrastructure for fault-tolerant quantum computing (FTQC), quantum error correction, and quantum control, with a focus on the 3D SRF cavity bosonic mode qudit approach"
 
       - institution: Northwestern University
@@ -178,6 +178,12 @@ cv:
       - title: "Superconducting qubit readout and control system based on FPGA and development of a pulse sequencer"
         publisher: "Quantum Device Lab, Department of Physics, ETH Zürich, Zürich, Switzerland"
         date: 2025-07-23
+
+    Posters:
+      - title: "Teaching an LLM Agent to Calibrate a Superconducting Cavity"
+        publisher: "AQC26 (Adiabatic Quantum Computing conference), Chicago, IL, USA"
+        date: "2026-10"
+        url: /assets/pdf/AQC26_poster_Bove.pdf
 
     Projects:
       - name: SpaceFibre PLL

@@ -181,7 +181,7 @@ cv:
 
     Posters:
       - title: "Teaching an LLM Agent to Calibrate a Superconducting Cavity"
-        publisher: "AQC26 (Adiabatic Quantum Computing conference), Chicago, IL, USA"
+        publisher: "AQC26 (Adaptive Quantum Circuits Conference), Chicago, IL, USA"
         date: "2026-10"
         url: /assets/pdf/AQC26_poster_Bove.pdf
 

@@ -29,7 +29,9 @@ latest_posts:
 
 I am a first-year Ph.D. student in Computer Science at [Northwestern University](https://www.northwestern.edu/), working with Professor [Nikos Hardavellas](https://www.cs.northwestern.edu/~hardav). I collaborate with [SQMS](https://sqms.fnal.gov/) (Superconducting Quantum Materials and Systems Center), Fermilab.
 
-My research interests are compilers, algorithms, and infrastructure for **fault-tolerant quantum computing**, **quantum error correction**, and **quantum control**, with a focus on 3D superconducting radio-frequency (SRF) cavity bosonic mode qudits. At SQMS, I have worked on calibrating SRF cavities and qubits with Quantum Machines control systems and on exposing the Novera Rigetti QPU as a cloud-accessible resource.
+My research is on quantum computer architecture. To tackle problems like simulating particle physics, quantum computers must scale far beyond what one chip can reliably hold, so future machines will be built from many connected modules, and the right design is still open. My approach is hardware-software co-design: start from what applications need and work down to the hardware. I study hybrid designs where superconducting cavities, which hold quantum data much longer than standard superconducting qubits, both remember and compute alongside the qubits. My goal is a blueprint for building these machines: which design works best for which workload, and which hardware limit matters most.
+
+My broader interests are compilers, algorithms, and infrastructure for **fault-tolerant quantum computing**, **quantum error correction**, and **quantum control**, with a focus on 3D superconducting radio-frequency (SRF) cavity bosonic mode qudits. At SQMS, I have worked on calibrating SRF cavities and qubits with Quantum Machines control systems and on exposing the Novera Rigetti QPU as a cloud-accessible resource.
 
 I hold a B.Sc. and an M.Sc. in Electronic Engineering from the [University of Pisa](https://www.unipi.it/), both **110/110 summa cum laude**. My master's thesis, carried out at SQMS, Fermilab, covered an FPGA-based superconducting qubit readout and control system and a pulse sequencer.
 
